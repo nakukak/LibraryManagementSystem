@@ -11,10 +11,6 @@ public class Member {
     public String toString() {
         return String.format("""
                 %s (Medlems nummer; %d)
-                """, name, id
-        );
+                """, name, id);
     }
 }
-
-
-//
