@@ -1,23 +1,32 @@
 import java.time.LocalDate;
-
+//
 public class Loan {
     Member borrowedBy;
     Book book;
     LocalDate borrowedDate;
 
-    public Loan(Book book, Member borrowedBy,LocalDate borrowedDate) {
+    public Loan(Book book, Member borrowedBy, LocalDate borrowedDate) {
         this.book = book;
         this.borrowedBy = borrowedBy;
         this.borrowedDate = borrowedDate;
 
-    }
-
-
-    public String toString() {
-        return "TO DO";
-
 }
-    }
+
+
+
+
+
+
+
+
+
+
+//
+//    public String toString() {
+//        return "TO DO";
+//
+//}
+//    }
 
 //
 //public boolean addBaggage(Baggage baggage) {

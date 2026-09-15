@@ -1,16 +1,29 @@
+import java.util.Objects;
+
 public class Member {
-    final String name;
-    final int id;
+    private final String name;
+    private final int memberID;
 
 
     public Member(String name, int id) {
         this.name = name;
-        this.id = id;
+        this.memberID = memberID;
+    }
+    public void add(Member member) {
+        membersList.add(member);
     }
 
     public String toString() {
         return String.format("""
                 %s (Medlems nummer; %d)
-                """, name, id);
+                """, name, memberID);
+    }
+
+    @Override
+    public boolean equals(Object otherMembers) {
+        if (otherMembers == null || getClass() != otherMembers.getClass()) return false;
+        Member otherBook = (Member) otherMembers;
+        return Objects.equals(name, otherBook.name) &&
+                Objects.equals(ID, otherBook.ID);
     }
 }
