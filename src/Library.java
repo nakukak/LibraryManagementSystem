@@ -17,9 +17,12 @@ public class Library {
     public void add(Member member) {
         membersList.add(member);
     }
-
-//    @Override
-//    public Book getBook (int ID) {
+//
+//    public Book getBook(int bookID) {
+//        for (Book book = bookID; bookList) ;
+//        if (Book.getBook() == getBook(bookID))
+//            return getBook;
+//    }
 //        if (getBook == null || getClass() != getBook.getClass()) return false;
 //        {
 //            Book bookList = (Book) getBook;
@@ -27,12 +30,7 @@ public class Library {
 //        }
 //        return null;
 //
-//        Book getBook (int ID) {
-//        for(Book book = bookList) return false
-//
-//            if (Book.getBook() == bookID())
-//                    return getBook;
-       // }
-    }
+    // }
+}
 //        IO.println(loanList);
 //    }

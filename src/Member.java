@@ -9,21 +9,22 @@ public class Member {
         this.name = name;
         this.memberID = memberID;
     }
-    public void add(Member member) {
-        membersList.add(member);
-    }
+//
+//    public void addMember(Member member) {
+//        membersList.add(name, memberID);
+//    }
 
     public String toString() {
         return String.format("""
                 %s (Medlems nummer; %d)
                 """, name, memberID);
     }
-
-    @Override
-    public boolean equals(Object otherMembers) {
-        if (otherMembers == null || getClass() != otherMembers.getClass()) return false;
-        Member otherBook = (Member) otherMembers;
-        return Objects.equals(name, otherBook.name) &&
-                Objects.equals(ID, otherBook.ID);
-    }
+//
+//    @Override
+//    public boolean equals(Object otherMembers) {
+//        if (otherMembers == null || getClass() != otherMembers.getClass()) return false;
+//        Member otherBook = (Member) otherMembers;
+//        return Objects.equals(name, otherBook.name) &&
+//                Objects.equals(ID, otherBook.ID);
+//    }
 }

@@ -1,4 +1,5 @@
 import java.time.LocalDate;
+
 //
 public class Loan {
     Member borrowedBy;
@@ -10,15 +11,7 @@ public class Loan {
         this.borrowedBy = borrowedBy;
         this.borrowedDate = borrowedDate;
 
-}
-
-
-
-
-
-
-
-
+    }
 
 
 //
